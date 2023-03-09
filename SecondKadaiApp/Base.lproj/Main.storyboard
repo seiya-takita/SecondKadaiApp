@@ -47,6 +47,9 @@
                             <constraint firstItem="x6s-qv-F5V" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hj4-iH-uMQ"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textField" destination="x6s-qv-F5V" id="oTe-Gc-MHh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -86,7 +89,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="LYC-dp-2TA"/>
                     <connections>
-                        <outlet property="name" destination="lnp-Np-1mH" id="0B3-xu-GlL"/>
+                        <outlet property="label" destination="lnp-Np-1mH" id="0B3-xu-GlL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xQ7-2X-Hg2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

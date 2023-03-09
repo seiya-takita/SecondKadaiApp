@@ -9,12 +9,15 @@ import UIKit
 
 class GreetingViewController: UIViewController {
 
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var label: UILabel!
+    
+    var name: String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        label.text = "こんにちは、\(name)さん"
     }
     
 
